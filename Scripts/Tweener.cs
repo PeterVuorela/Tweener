@@ -72,14 +72,9 @@ public class Tweener
 
 					_TimeElapsed+=Time.deltaTime;
 				}
-				else
-				{
-					Console.LogError( "Cant find tween!!" );
-				}
 			}
 			else
 			{
-				//Console.Log( "Tween End" );
 				_Progression = _To;
 
 				_Animating = false;
